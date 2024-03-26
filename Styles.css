@@ -1,0 +1,102 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+
+    background-image: url('another-background.jpg');
+    background-size: contain;
+}
+
+header {
+    background: linear-gradient(to bottom, #ffcc00, #ff9900); /* Gradient background */
+    background-image: url('header-background.jpg');  /* Multiple background images */
+    background-position: top left, bottom right; 
+    background-repeat: no-repeat, no-repeat; 
+    text-align: center;
+    padding: 40px;
+    background-size:contain;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Cool hover effect */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Cool hover effect */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    width: 300px;
+    height: auto;
+}
+
+.facts {
+    margin-top: 20px;
+}
+
+.facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facts li {
+    margin-bottom: 10px;
+}
+
+.nutrition {
+    margin-top: 20px;
+}
+
+footer {
+    background: linear-gradient(to top, #333, #666); /* Gradient background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #ff9900;
+}
